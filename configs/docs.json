@@ -1,0 +1,225 @@
+{
+  "dataArray": [
+    {
+      "name": "demo",
+      "componentArray": [
+        {
+          "componentName": "democomponent",
+          "filesrc": "components/demo/index.tsx",
+          "iframeSrc": "live-components/democomponent",
+          "parentlink": "demo",
+          "parentName": "demo"
+        }
+      ],
+      "type": "demo"
+    },
+    {
+      "name": "Buttons",
+      "componentArray": [
+        {
+          "componentName": "button-background-shine",
+          "filesrc": "components/button/btn-bg-shine.tsx",
+          "iframeSrc": "live-components/button-background-shine",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        },
+        {
+          "componentName": "button-background-spotlight",
+          "filesrc": "components/button/btn-bg-spotlight.tsx",
+          "iframeSrc": "live-components/button-background-spotlight",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        },
+        {
+          "componentName": "button-hover-active",
+          "filesrc": "components/button/btn-hover-active.tsx",
+          "iframeSrc": "live-components/button-hover-active",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        },
+        {
+          "componentName": "button-hover-2",
+          "filesrc": "components/button/btn-hover2.tsx",
+          "iframeSrc": "live-components/button-hover-2",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        },
+
+        {
+          "componentName": "creative-button-1",
+          "filesrc": "components/button/creative-btn1.tsx",
+          "iframeSrc": "live-components/creative-button-1",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        },
+        {
+          "componentName": "creative-button-2",
+          "filesrc": "components/button/creative-btn2.tsx",
+          "iframeSrc": "live-components/creative-button-2",
+          "parentlink": "buttons",
+          "parentName": "Buttons"
+        }
+      ],
+      "type": "buttons"
+    },
+    {
+      "name": "Clip-Path",
+      "componentArray": [
+        {
+          "componentName": "creative-clippath",
+          "filesrc": "components/clip-path/clip-path-creative.tsx",
+          "iframeSrc": "live-components/creative-clippath",
+          "parentlink": "clip-path",
+          "parentName": "Clip Path"
+        }
+      ],
+      "type": "clip-path",
+      "new": true
+    },
+    {
+      "name": "Product Cards",
+      "componentArray": [
+        {
+          "componentName": "productcard1",
+          "filesrc": "components/card/product-card1.tsx",
+          "iframeSrc": "live-components/productcard1",
+          "parentlink": "product-cards",
+          "parentName": "Product Cards"
+        },
+        {
+          "componentName": "productcard2",
+          "filesrc": "components/card/product-card2.tsx",
+          "iframeSrc": "live-components/productcard2",
+          "parentlink": "product-cards",
+          "parentName": "Product Cards"
+        }
+      ],
+      "type": "card"
+    },
+    {
+      "name": "Footers",
+      "componentArray": [
+        {
+          "componentName": "animated-logo-footer",
+          "filesrc": "components/footers/footer1.tsx",
+          "iframeSrc": "live-components/animated-logo-footer",
+          "parentlink": "footers",
+          "parentName": "Footers"
+        },
+        {
+          "componentName": "hover-footer",
+          "iframeSrc": "live-components/hover-footer",
+          "filesrc": "components/footers/hover-footer.tsx",
+          "filesArray": [
+            {
+              "name": "index.tsx",
+              "filesrc": "registry/components/footers/hover-footer.tsx"
+            },
+            {
+              "name": "cursor-follow-text.tsx",
+              "filesrc": "components/core/cursor-follow-text.tsx"
+            }
+          ],
+          "parentlink": "footers",
+          "parentName": "Footers"
+        }
+      ],
+      "type": "footers"
+    },
+    {
+      "name": "Horizontal Scroll",
+      "componentArray": [
+        {
+          "componentName": "horizontalscroll",
+          "iframelink": "horizontal-scrolling-section",
+          "parentlink": "horizontal-scroll",
+          "parentName": "Horizontal Scroll"
+        },
+        {
+          "componentName": "framerhorizontalscroll",
+          "filesrc": "components/scroll-animation/framer-horizontal-scroll.tsx",
+          "iframeSrc": "live-components/framerhorizontalscroll",
+          "filesArray": [
+            {
+              "name": "index.tsx",
+              "filesrc": "registry/components/scroll-animation/framer-horizontal-scroll.tsx"
+            }
+          ],
+          "parentlink": "horizontal-scroll",
+          "parentName": "Horizontal Scroll"
+        }
+      ],
+      "type": "horizontal-scroll"
+    },
+    {
+      "name": "Blur Vignette",
+      "componentArray": [
+        {
+          "componentName": "blur-vignette-video",
+          "filesrc": "components/blurvignette/blurvignettevideo.tsx",
+          "iframeSrc": "live-components/blur-vignette-video",
+          "parentlink": "blur-vignette",
+          "parentName": "Blur Vignette"
+        },
+        {
+          "componentName": "blur-vignette-img",
+          "filesrc": "components/blurvignette/blurvignetteimg.tsx",
+          "iframeSrc": "live-components/blur-vignette-img",
+          "parentlink": "blur-vignette",
+          "parentName": "Blur Vignette"
+        },
+        {
+          "componentName": "blur-vignette-card",
+          "filesrc": "components/blurvignette/blurvignettecard.tsx",
+          "iframeSrc": "live-components/blur-vignette-card",
+          "parentlink": "blur-vignette",
+          "parentName": "Blur Vignette"
+        }
+      ],
+      "type": "creative",
+      "new": true
+    },
+    {
+      "name": "Motion Number",
+      "componentArray": [
+        {
+          "componentName": "motion-number",
+          "filesrc": "components/motion-number/motion-number.tsx",
+          "iframeSrc": "live-components/motion-number",
+          "parentlink": "motion-number",
+          "parentName": "Motion Number"
+        },
+        {
+          "componentName": "motion-number-after",
+          "filesrc": "components/motion-number/motion-number-after.tsx",
+          "iframeSrc": "live-components/motion-number-after",
+          "parentlink": "motion-number",
+          "parentName": "Motion Number"
+        },
+        {
+          "componentName": "motion-number-before",
+          "filesrc": "components/motion-number/motion-number-before.tsx",
+          "iframeSrc": "live-components/motion-number-before",
+          "parentlink": "motion-number",
+          "parentName": "Motion Number"
+        },
+        {
+          "componentName": "motion-number-last",
+          "filesrc": "components/motion-number/motion-number-last.tsx",
+          "iframeSrc": "live-components/motion-number-last",
+          "parentlink": "motion-number",
+          "parentName": "Motion Number"
+        },
+        {
+          "componentName": "motion-number-first",
+          "filesrc": "components/motion-number/motion-number-start.tsx",
+          "iframeSrc": "live-components/motion-number-first",
+          "parentlink": "motion-number",
+          "parentName": "Motion Number"
+        }
+      ],
+      "type": "creative",
+      "new": true
+    }
+  ]
+}
